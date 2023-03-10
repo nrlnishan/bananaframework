@@ -1,0 +1,11 @@
+framework module bananaframework {
+  umbrella header "bananaframework.h"
+
+  export *
+  module * { export * }
+}
+
+module bananaframework.Swift {
+  header "bananaframework-Swift.h"
+  requires objc
+}

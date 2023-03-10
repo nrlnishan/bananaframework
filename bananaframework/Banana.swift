@@ -8,7 +8,11 @@
 import Foundation
 import RealmSwift
 
-open class Banana {
+public class Banana {
+    
+    public init() {
+        
+    }
     
     public func createFruit(name: String, isSweet: Bool) {
         let realm = try? Realm()

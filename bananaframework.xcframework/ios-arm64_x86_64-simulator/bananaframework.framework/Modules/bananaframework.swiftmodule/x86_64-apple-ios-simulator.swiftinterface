@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name bananaframework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import RealmSwift
+import Swift
+import _Concurrency
+import _StringProcessing
+@_exported import bananaframework
+@objc @_inheritsConvenienceInitializers public class Fruit : RealmSwift.Object {
+  @RealmSwift.Persisted public var fruitName: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var isSweet: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class Banana {
+  public init()
+  public func createFruit(name: Swift.String, isSweet: Swift.Bool)
+  public func fetchAllFruits() -> [bananaframework.Fruit]
+  @objc deinit
+}

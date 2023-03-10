@@ -1,0 +1,559 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "bananaframework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "bananaframework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Fruit",
+        "printedName": "Fruit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fruitName",
+            "printedName": "fruitName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15bananaframework5FruitC9fruitNameSSvp",
+            "mangledName": "$s15bananaframework5FruitC9fruitNameSSvp",
+            "moduleName": "bananaframework",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15bananaframework5FruitC9fruitNameSSvg",
+                "mangledName": "$s15bananaframework5FruitC9fruitNameSSvg",
+                "moduleName": "bananaframework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15bananaframework5FruitC9fruitNameSSvs",
+                "mangledName": "$s15bananaframework5FruitC9fruitNameSSvs",
+                "moduleName": "bananaframework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15bananaframework5FruitC9fruitNameSSvM",
+                "mangledName": "$s15bananaframework5FruitC9fruitNameSSvM",
+                "moduleName": "bananaframework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSweet",
+            "printedName": "isSweet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15bananaframework5FruitC7isSweetSbvp",
+            "mangledName": "$s15bananaframework5FruitC7isSweetSbvp",
+            "moduleName": "bananaframework",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15bananaframework5FruitC7isSweetSbvg",
+                "mangledName": "$s15bananaframework5FruitC7isSweetSbvg",
+                "moduleName": "bananaframework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15bananaframework5FruitC7isSweetSbvs",
+                "mangledName": "$s15bananaframework5FruitC7isSweetSbvs",
+                "moduleName": "bananaframework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15bananaframework5FruitC7isSweetSbvM",
+                "mangledName": "$s15bananaframework5FruitC7isSweetSbvM",
+                "moduleName": "bananaframework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Fruit",
+                "printedName": "bananaframework.Fruit",
+                "usr": "c:@M@bananaframework@objc(cs)Fruit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@bananaframework@objc(cs)Fruit(im)init",
+            "mangledName": "$s15bananaframework5FruitCACycfc",
+            "moduleName": "bananaframework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@bananaframework@objc(cs)Fruit",
+        "mangledName": "$s15bananaframework5FruitC",
+        "moduleName": "bananaframework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)RealmSwiftObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Realm.RealmSwiftObject",
+          "Realm.RLMObjectBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmSubscribable",
+            "printedName": "RealmSubscribable",
+            "usr": "s:10RealmSwift0A12SubscribableP",
+            "mangledName": "$s10RealmSwift0A12SubscribableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjcBridgeable",
+            "printedName": "_ObjcBridgeable",
+            "usr": "s:10RealmSwift15_ObjcBridgeableP",
+            "mangledName": "$s10RealmSwift15_ObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KeypathSortable",
+            "printedName": "KeypathSortable",
+            "usr": "s:10RealmSwift15KeypathSortableP",
+            "mangledName": "$s10RealmSwift15KeypathSortableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WillChange",
+                    "printedName": "RealmSwift.RealmPublishers.WillChange<Realm.RealmSwiftObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RealmSwiftObject",
+                        "printedName": "Realm.RealmSwiftObject",
+                        "usr": "c:objc(cs)RealmSwiftObject"
+                      }
+                    ],
+                    "usr": "s:10RealmSwift0A10PublishersO10WillChangeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PersistableInsideOptional",
+            "printedName": "_PersistableInsideOptional",
+            "usr": "s:10RealmSwift26_PersistableInsideOptionalP",
+            "mangledName": "$s10RealmSwift26_PersistableInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_DefaultConstructible",
+            "printedName": "_DefaultConstructible",
+            "usr": "s:10RealmSwift21_DefaultConstructibleP",
+            "mangledName": "$s10RealmSwift21_DefaultConstructibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmSchemaDiscoverable",
+            "printedName": "_RealmSchemaDiscoverable",
+            "usr": "s:10RealmSwift01_A18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift01_A18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_Persistable",
+            "printedName": "_Persistable",
+            "usr": "s:10RealmSwift12_PersistableP",
+            "mangledName": "$s10RealmSwift12_PersistableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasPersistedType",
+            "printedName": "_HasPersistedType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "PersistedType",
+                "printedName": "PersistedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RealmSwiftObject",
+                    "printedName": "Realm.RealmSwiftObject",
+                    "usr": "c:objc(cs)RealmSwiftObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10RealmSwift17_HasPersistedTypeP",
+            "mangledName": "$s10RealmSwift17_HasPersistedTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmCollectionValueInsideOptional",
+            "printedName": "_RealmCollectionValueInsideOptional",
+            "usr": "s:10RealmSwift01_A29CollectionValueInsideOptionalP",
+            "mangledName": "$s10RealmSwift01_A29CollectionValueInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmCollectionValue",
+            "printedName": "RealmCollectionValue",
+            "usr": "s:10RealmSwift0A15CollectionValueP",
+            "mangledName": "$s10RealmSwift0A15CollectionValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ThreadConfined",
+            "printedName": "ThreadConfined",
+            "usr": "s:10RealmSwift14ThreadConfinedP",
+            "mangledName": "$s10RealmSwift14ThreadConfinedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmFetchable",
+            "printedName": "RealmFetchable",
+            "usr": "s:10RealmSwift0A9FetchableP",
+            "mangledName": "$s10RealmSwift0A9FetchableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObservedResultsValue",
+            "printedName": "_ObservedResultsValue",
+            "usr": "s:10RealmSwift21_ObservedResultsValueP",
+            "mangledName": "$s10RealmSwift21_ObservedResultsValueP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "bananaframework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "bananaframework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Banana",
+        "printedName": "Banana",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Banana",
+                "printedName": "bananaframework.Banana",
+                "usr": "s:15bananaframework6BananaC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15bananaframework6BananaCACycfc",
+            "mangledName": "$s15bananaframework6BananaCACycfc",
+            "moduleName": "bananaframework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createFruit",
+            "printedName": "createFruit(name:isSweet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15bananaframework6BananaC11createFruit4name7isSweetySS_SbtF",
+            "mangledName": "$s15bananaframework6BananaC11createFruit4name7isSweetySS_SbtF",
+            "moduleName": "bananaframework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAllFruits",
+            "printedName": "fetchAllFruits()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[bananaframework.Fruit]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Fruit",
+                    "printedName": "bananaframework.Fruit",
+                    "usr": "c:@M@bananaframework@objc(cs)Fruit"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15bananaframework6BananaC14fetchAllFruitsSayAA5FruitCGyF",
+            "mangledName": "$s15bananaframework6BananaC14fetchAllFruitsSayAA5FruitCGyF",
+            "moduleName": "bananaframework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15bananaframework6BananaC",
+        "mangledName": "$s15bananaframework6BananaC",
+        "moduleName": "bananaframework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nrlnishan\/Desktop\/allaboutcocos\/bananaframework\/bananaframework\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nrlnishan\/Desktop\/allaboutcocos\/bananaframework\/bananaframework\/Fruit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 249,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
