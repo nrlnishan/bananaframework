@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = "bananaframework"
-	s.version = "1.2.0"
+	s.version = "1.2.1"
 	s.summary = "This is banana framework"
 	s.description = <<-DESC
 	This is the framework for all the minions out there.
